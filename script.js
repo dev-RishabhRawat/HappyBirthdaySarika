@@ -1,10 +1,4 @@
-/*
-{
- name:"",
- avatar:,
- wish:""
-},
-*/
+
 let wishes = [
     {
      name:"💕Rishabh💕",
@@ -39,4 +33,9 @@ let wishes = [
     document.getElementById("music").play();
    }
   
-   
+   function showGift(){
+    document.querySelector(".loader").style.display = "none";
+    document.querySelector('.main').style.display = "none";
+    document.querySelector('.teddy').style.display = "block";
+
+   }

@@ -37,5 +37,7 @@ let wishes = [
     document.querySelector(".loader").style.display = "none";
     document.querySelector('.main').style.display = "none";
     document.querySelector('.teddy').style.display = "block";
+    document.getElementById("music").pause();
+
 
    }

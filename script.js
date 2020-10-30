@@ -3,7 +3,17 @@ let wishes = [
     {
      name:"💕Rishabh💕",
      avatar:1,
+     wish:"💗💓💟💝💘💖💞💛💕💜💙💚🏁🧡❤️😚😙😘😗👨‍❤️‍💋‍👨👩‍❤️‍💋‍👩🤗👩‍❤️‍💋‍👨👨‍❤️‍👨👩‍❤️‍👩👩‍❤️‍👨💋💋😸😺🥰🥳😎🤩",
+    },
+    {
+     name:"😎 Dinesh 😎",
+     avatar:1,
      wish:"Sending you smiles for every moment of your special day…Have a wonderful time and a very happy birthday!",
+    },
+    {
+     name:"💝 Vibhu 💝",
+     avatar:3,
+     wish:"Happiest birthday to my #BholuRam 😘😘 May god bless you with all the love,happiness and success. 💐💐May you keep smiling and shining like a star 🤩I love you so much yarr❤️❤️Thanku for always being with me. Thank you for being so caring and loving You have proved the actual meaning of \"True Friendship\"  Love you Infinity ❤️\n "
     },
    
    ];
@@ -29,6 +39,8 @@ let wishes = [
    }
    function start() {
     document.querySelector(".loader").style.display = "none";
+    document.querySelector('.main').style.display = "block";
+
     showWishes()
     document.getElementById("music").play();
    }
@@ -36,8 +48,7 @@ let wishes = [
    function showGift(){
     document.querySelector(".loader").style.display = "none";
     document.querySelector('.main').style.display = "none";
-    document.querySelector('.teddy').style.display = "block";
+    document.querySelector('.teddy_area').style.display = "block";
     document.getElementById("music").pause();
-
-
    }
+   document.querySelector('.main').style.display = "none";

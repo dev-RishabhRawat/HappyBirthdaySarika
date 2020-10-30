@@ -18,10 +18,10 @@ body {
   background: #000;
 }
 .loader {
-  position: fixed;
-  top: 0;
-  left: 0;
-  bottom: 0;
+ display: flex;
+ justify-content:center;
+ align-items: stretch;
+ flex-direction: column;
   height: 100vh;
   width: 100%;
   background: #000
@@ -35,10 +35,9 @@ body {
 }
 
 .loader .img {
-  margin-top: 30px;
-  height: 200px;
+  height: 300px;
   width: 200px;
-  margin-bottom: 15px;
+  border-radius: 50%;
   box-shadow: 0 0 5px var(--color),
               0 0 25px var(--color),
               0 0 75px var(--color),
@@ -707,10 +706,7 @@ animation-delay:29.5s;
 }
 }
 
-.heading{
-  position: absolute;
-  top: 70%;
-  transform: translateY(-50%);
+.heading{ 
   width: 100%;
   text-align: center;
   color: #fff;
@@ -803,83 +799,25 @@ color: greenyellow;}
   animation-delay: 4.50s;
 }
 
-@media (max-width:399px){
-  .loader {
-    
-    height: 100vh;
-    width: 100%;
-    background: #000
-    url("https://images.milled.com/2019-11-14/btA7CNtXlck-Q8IK/ZyXRKD-f4EbT.gif");
-    background-size: 100%;
-    background-attachment: fixed;
-    text-align: center;
-    padding: 20px;
-    z-index: 5;
+@media (max-width:500px){
+  .loader{
+    background-size: 100% 50%;
   }
-  .loader p{
-    font-size: x-large;
-    font-family: neon;
-    color: #ffd8e8;
-   
-  }
-  .btn{
-    padding: 10px;
-    margin-top: 26px;
-  }
-  .heading{
-    position: absolute;
-    top: 55%;
-    left: 0;
-    transform: translateY(-50%);
-    width: 100%;
-    text-align: center;
-    color: #fff;
-    font-size: 2em;
-  }
-  .main .btn{
-    margin-top: 0;
-    margin-bottom: 10px;
-  }
-}
-@media (min-width:400px) and (max-width:500px){
-  .loader {
-    
-    height: 100vh;
-    width: 100%;
-    background: #000
-    url("https://images.milled.com/2019-11-14/btA7CNtXlck-Q8IK/ZyXRKD-f4EbT.gif");
-    background-size: 100%;
-    background-attachment: fixed;
-    text-align: center;
-    padding: 20px;
-    z-index: 5;
-  }
-  .loader p{
-    font-size: x-large;
-    font-family: neon;
-    color: #ffd8e8;
-   
-  }
-  .btn{
-    padding: 10px;
-    margin-top: 52px;
-  }
-  .heading{
-    position: absolute;
-    top: 40%;
-    left: 0;
-    transform: translateY(-50%);
-    width: 100%;
-    text-align: center;
-    color: #fff;
-    font-size: 2em;
-  }
-  .main .btn{
-    margin-top: 0;
-    margin-bottom: 10px;
-  }
-  .loader .img {
-    width: 300px;
+  .loader .img{
+    margin-top: -57px;
+    width: 250px;
     height: 250px;
+  }
+  .heading{
+    font-size: 2em;
+    position: absolute;
+    left: 0;
+    top: 20%;
+  }
+  .btn{
+    padding: 10px;
+    font-size: medium;
+    font-weight: 100;
+    margin-top: 20px;
   }
 }

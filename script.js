@@ -382,9 +382,10 @@ window.requestAnimFrame = function () {
     }
   
     init();
+
   
   };
-  
+  document.getElementById("music").play();
   function reveal() {
     document.querySelector('.merrywrap').style.backgroundColor = 'transparent';
     document.getElementById("music").src="./songs/song2.mp3";

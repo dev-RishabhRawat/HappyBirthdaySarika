@@ -349,6 +349,7 @@ window.requestAnimFrame = function () {
   }
   
   window.onload = function () {
+document.getElementById("music").play()
     var merrywrap = document.getElementById("merrywrap");
     var box = merrywrap.getElementsByClassName("giftbox")[0];
     var step = 1;

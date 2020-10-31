@@ -21,7 +21,7 @@ body { padding-top: 70px; }
 }
 .jumbotron{
 	color: white !important;
-	background-image: url("https://lh3.googleusercontent.com/-sp9gYmuyOBI/X52if6FyDgI/AAAAAAAAIus/laSw5Wyby7w5OiY3GreNfHWb-iAZFlaFgCLcBGAsYHQ/B612_20171101_124844_1509539340046.jpg") !important;
+	background-image: url('images/1.jpg') !important;
 	background-size: center !important;
 	background-position: center !important;
 }

@@ -643,10 +643,10 @@ background-color:rgb(222,93,131);
 .teddy_area{
   display: none;
   position: relative;
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   background: #000000 url("https://i.pinimg.com/originals/4e/49/1b/4e491b2651d7430ffd1b76da74a36fa5.gif");
-  background-position: center;
+  background-position: 100% 80%;
 }
 
 .teddy{
@@ -657,6 +657,8 @@ background-color:rgb(222,93,131);
   transform:scale(1); 
   animation: teddy 8s both;
   animation-delay:2.5s;
+  width: 100vw;
+  height: 100vh;
 }
 
 
@@ -682,8 +684,6 @@ background-color:rgb(222,93,131);
   opacity: 1;
 }
 }
-
-
 
 
 
@@ -819,6 +819,7 @@ color: greenyellow;}
     font-size: medium;
     font-weight: 100;
     background-color: transparent;
+    margin-bottom: 20px;
   }
 }
 
@@ -846,7 +847,7 @@ color: greenyellow;}
   z-index: 10;
 }
 .giftbox > div {
-  background: #34495e;
+  background:#eb4d4b;
   position: absolute;
 }
 .giftbox > div:after, .giftbox > div:before {
@@ -858,7 +859,7 @@ color: greenyellow;}
   position: absolute;
   color: #fff;
   width: 100%;
-  content: "Click Me!";
+  content: "Click Baby 😘😘😘";
   left: 0;
   bottom: 0;
   font-size: 24px;

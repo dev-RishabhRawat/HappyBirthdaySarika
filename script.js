@@ -7,13 +7,38 @@ let wishes = [
     },
     {
      name:"😎 Dinesh 😎",
-     avatar:1,
-     wish:"Sending you smiles for every moment of your special day…Have a wonderful time and a very happy birthday!",
+     avatar:2,
+     wish:"Wish you a beautiful😍😍 birthday 🎂🎂🎂and I hope you get double😇 of everything 😋you want in your life❤️😍😍. Happy Birthday!🥰🥰Niaaa🤩🤩",
     },
     {
      name:"💝 Vibhu 💝",
      avatar:3,
      wish:"Happiest birthday to my #BholuRam 😘😘 May god bless you with all the love,happiness and success. 💐💐May you keep smiling and shining like a star 🤩I love you so much yarr❤️❤️Thanku for always being with me. Thank you for being so caring and loving You have proved the actual meaning of \"True Friendship\"  Love you Infinity ❤️\n "
+    },
+    {
+     name:"😚 Prabha 😚",
+     avatar:4,
+     wish:"Your smile is so precious for me always be happy thanks baby to come in my life ...for all the stupid memories🤪... We will create more beautiful memories ... Hum do hmare ek ek mtlb hm char bhut masti krne wale h I m damn sure 💋💋💋💋💋 \n Enjoy your birthday n baby study hard ... We will meet after my result!😘😘😍😍"
+    },
+    {
+     name:"😙 Mansi 😙",
+     avatar:5,
+     wish:"Birthdays come around every year, but friend like you only come once in a lifetime. I’m so glad you came into my life. Best wishes on your special day. Happy Birthday nia❤️❤️ love u so much "
+    },
+    {
+     name:"😗 Ritu 😗",
+     avatar:6,
+     wish:"Happy birthday dear😘😘sending u lots of luv n lovely wishes may all ur dream comes true 😘 . Stay healthy n be blessed . Luv u babes❤️❤️ "
+    },
+    {
+     name:"🤗 Shefali 🤗",
+     avatar:7,
+     wish:"I jst want 2 wish uh lots of luck....gud health nd yessss lots of wealth...On dis special day...,\nWish uh a super birthday..."
+    },
+    {
+     name:" 🤗Shanika 🤗",
+     avatar:8,
+     wish:"May god bless you beautiful ❤ Happy birthday dear , wish you all the happiness of the world!"
     },
    
    ];

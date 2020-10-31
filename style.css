@@ -56,6 +56,7 @@ body {
   border-radius: 5px;
   border: 1px solid var(--color);
   transition: 0.3s;
+  cursor: pointer;
 }
 .btn:hover {
   background: var(--color);
@@ -78,6 +79,7 @@ img {
   background-repeat: no-repeat;
   background-position: center top;
   height: 100vh;
+  width: 100vw;
   overflow-y: scroll;
 }
 .title {
@@ -181,6 +183,8 @@ img {
 .container {
   padding: 20px;
 }
+ /* for cat animation */
+ 
 .card {
   padding: 15px;
   border-radius: 20px;
@@ -188,6 +192,26 @@ img {
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
   animation: fadeIn 1s ease;
   transition: 0.5s ease;
+}
+.maau::before{
+  background-image:  url('https://media1.tenor.com/images/e01db4eb72650693cf98f9fedb272fe7/tenor.gif?itemid=14859151');
+  background-size: 100% 100%;
+  display: inline-block;
+  width: 100px; 
+  height: 100px;
+  border-radius: 50%;
+  content:"";
+ 
+}
+.maau::after{
+  background-image:  url('https://i.pinimg.com/originals/20/af/d6/20afd6fa304cd271ba789c45132f6755.gif');
+  background-size: 100% 100%;
+  display: inline-block;
+  width: 100px; 
+  height: 100px;
+  border-radius: 50%;
+  content:"";
+ 
 }
 .card:hover {
   transform: translateY(-10px);
@@ -647,6 +671,12 @@ background-color:rgb(222,93,131);
   height: 100vh;
   background: #000000 url("https://i.pinimg.com/originals/4e/49/1b/4e491b2651d7430ffd1b76da74a36fa5.gif");
   background-position: 100% 80%;
+}
+
+#showWish{
+  display: flex;
+  margin: auto;
+  cursor: pointer;
 }
 
 .teddy{

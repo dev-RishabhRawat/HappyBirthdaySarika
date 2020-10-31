@@ -3,7 +3,7 @@ let wishes = [
     {
      name:"💕Rishabh💕",
      avatar:1,
-     wish:"💗💓💟💝💘💖💞💛💕💜💙💚🏁🧡❤️😚😙😘😗👨‍❤️‍💋‍👨👩‍❤️‍💋‍👩🤗👩‍❤️‍💋‍👨👨‍❤️‍👨👩‍❤️‍👩👩‍❤️‍👨💋💋😸😺🥰🥳😎🤩",
+     wish:"💗Happiest Birthday to you my most caring and loving babu 😘😘😘😘😘😘 , You always motivate me to dream big and never allow me to feel low and depressed, vse to hmse kuch kaam na hota jabtk tmhri hadki na pde but aj bina khe itna kaam kia, and i really love this. you are not my love only your are my life! 🌎 , This year corona ne sara plan chaupat kr liya but sbse acchi bat ye hai ki in this corona crisis we and our families are safe. and as you know i don't know how to express my feelings bs itna khna hai ki i love you the most ❤️❤️❤️🧡🧡🧡 and always be with youin any situation will be and will make tasty recipes too as i always do for u , my cute maau rontru b bat bat me rone lgti 😂😂😂 , most angry b gussa ane per panje marne ka try krti fr khisiyani billi trh kch kr ni pati to muh bana k baith jati 🤣🤣🤣🤣🤣🤣 , It's so long time kitne logo ka kat chuka but our bond is getting more stronger and stronger as time passes away! time ka pata hi ni chala itne sal kse khatam ho gye , bs jaldi se sb settle ho jye yhi chaiye is time bs🤗🤗🤗🤗. Happy birthday to you maau 🐱🐱🐱🐱",
     },
     {
      name:"😎 Dinesh 😎",
@@ -36,7 +36,7 @@ let wishes = [
      wish:"I jst want 2 wish uh lots of luck....gud health nd yessss lots of wealth...On dis special day...,\nWish uh a super birthday..."
     },
     {
-     name:" 🤗Shanika 🤗",
+     name:" 🤗 Shanika 🤗",
      avatar:8,
      wish:"May god bless you beautiful ❤ Happy birthday dear , wish you all the happiness of the world!"
     },
@@ -76,6 +76,8 @@ let wishes = [
    function showWishes(){
     wishes.forEach(wish => {
      addWishes(wish)
+    document.getElementById("music").pause();
+
     });
    }
    function start() {
@@ -83,18 +85,15 @@ let wishes = [
     document.querySelector('.main').style.display = "block";
 
     showWishes()
-    document.getElementById("music").play();
    }
   
    function showGift(){
     document.querySelector(".loader").style.display = "none";
     document.querySelector('.main').style.display = "none";
     document.querySelector('.teddy_area').style.display = "block";
-    document.getElementById("music").pause();
    }
    document.querySelector('.main').style.display = "none";
    document.querySelector('.teddy').style.display = 'none';
-
 
 
    // for gift box and fireworks
@@ -356,6 +355,8 @@ window.requestAnimFrame = function () {
     var stepMinutes = [2000, 2000, 1000, 1000];
     function init() {
       box.addEventListener("click", openBox, false);
+      document.getElementById("music").play();
+
       
     }
     function stepClass(step) {
@@ -388,6 +389,9 @@ window.requestAnimFrame = function () {
     document.querySelector('.merrywrap').style.backgroundColor = 'transparent';
     document.getElementById("music").src="./songs/song2.mp3";
     document.getElementById("music").play();
+    document.getElementById('birthday_wish').innerHTML = "I Love You So Much!"
+
+
   
     loop();
   

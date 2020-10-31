@@ -40,6 +40,22 @@ let wishes = [
      avatar:8,
      wish:"May god bless you beautiful ❤ Happy birthday dear , wish you all the happiness of the world!"
     },
+    {
+     name:" 🥰 Shalini 🤗",
+     avatar:9,
+     wish:"Sending you smiles for every moment of your special day…Have a wonderful time and a very happy birthday.  Hope your special day brings you all that your heart desires🥰🥰💋💋❤️❤️❤️"
+    },
+    {
+     name:"🥴 Sahil 😆",
+     avatar:10,
+     wish:"Let this day be full of joy and celebration🤩🥳. I wish you an outstanding and fabulous birthday🎂, my friend!🥰❤️"
+    },
+    {
+     name:"🧍‍♀️ Mansi 👨‍🦲",
+     avatar:11,
+     wish:"May god shower all his blessings on you..😇 keep shining.. keep rocking❤️❤️  Wish you a very very happy birthday🥳🥳🥳🥳🥳🥳🥳🍫🎂🍫🎂🍫🎉🎉"
+    },
+    
    
    ];
    const container = document.querySelector(".container");
@@ -340,10 +356,12 @@ window.requestAnimFrame = function () {
     var stepMinutes = [2000, 2000, 1000, 1000];
     function init() {
       box.addEventListener("click", openBox, false);
+      
     }
     function stepClass(step) {
       merrywrap.className = 'merrywrap';
       merrywrap.className = 'merrywrap step-' + step;
+      
     }
     function openBox() {
       document.querySelector('.teddy').style.display = 'block';
@@ -368,6 +386,8 @@ window.requestAnimFrame = function () {
   
   function reveal() {
     document.querySelector('.merrywrap').style.backgroundColor = 'transparent';
+    document.getElementById("music").src="./songs/song2.mp3";
+    document.getElementById("music").play();
   
     loop();
   

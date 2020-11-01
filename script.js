@@ -65,7 +65,6 @@ let wishes = [
     
    
    ];
-   document.getElementById("music").play();
 
    const container = document.querySelector(".container");
    
@@ -92,6 +91,8 @@ let wishes = [
    function start() {
     document.querySelector(".loader").style.display = "none";
     document.querySelector('.main').style.display = "block";
+   document.getElementById("music").play();
+
 
     showWishes()
    }

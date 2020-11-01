@@ -21,7 +21,7 @@ let wishes = [
      wish:"Your smile is so precious for me always be happy thanks baby to come in my life ...for all the stupid memories🤪... We will create more beautiful memories ... Hum do hmare ek ek mtlb hm char bhut masti krne wale h I m damn sure 💋💋💋💋💋 \n Enjoy your birthday n baby study hard ... We will meet after my result!😘😘😍😍"
     },
     {
-     name:"😙 Mansi 😙",
+     name:"😙 Mansi 🐼🐼🐼🐼",
      avatar:5,
      wish:"Birthdays come around every year, but friend like you only come once in a lifetime. I’m so glad you came into my life. Best wishes on your special day. Happy Birthday nia❤️❤️ love u so much "
     },
@@ -51,7 +51,7 @@ let wishes = [
      wish:"Let this day be full of joy and celebration🤩🥳. I wish you an outstanding and fabulous birthday🎂, my friend!🥰❤️"
     },
     {
-     name:"🧍‍♀️ Mansi 👨‍🦲",
+     name:"🤩😍 Mansi 👶👶",
      avatar:11,
      wish:"May god shower all his blessings on you..😇 keep shining.. keep rocking❤️❤️  Wish you a very very happy birthday🥳🥳🥳🥳🥳🥳🥳🍫🎂🍫🎂🍫🎉🎉"
     },

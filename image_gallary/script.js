@@ -1,7 +1,7 @@
 window.onload = function(){
     // Get the modal
     var modal = document.getElementById('myModal');
-    document.getElementById('gallary_music').play();
+    // document.getElementById('gallary_music').play();
     
     // Get the image and insert it inside the modal - use its "alt" text as a caption
     var img = $('.myImg');
@@ -20,3 +20,5 @@ window.onload = function(){
       modal.style.display = "none";
     }
     }
+
+    

@@ -3,8 +3,9 @@ let wishes = [
     {
      name:"💕Rishabh💕",
      avatar:1,
-     wish:"💗Happiest Birthday to you my most caring and loving babu 😘😘😘😘😘😘 , You always motivate me to dream big and never allow me to feel low and depressed, vse to hmse kuch kaam na hota jabtk tmhri hadki na pde but aj bina khe itna kaam kia, and i really love this. you are not my love only your are my life! 🌎 , This year corona ne sara plan chaupat kr liya but sbse acchi bat ye hai ki in this corona crisis we and our families are safe. and as you know i don't know how to express my feelings bs itna khna hai ki i love you the most ❤️❤️❤️🧡🧡🧡 and always be with youin any situation will be and will make tasty recipes too as i always do for u , my cute maau rontru b bat bat me rone lgti 😂😂😂 , most angry b gussa ane per panje marne ka try krti fr khisiyani billi trh kch kr ni pati to muh bana k baith jati 🤣🤣🤣🤣🤣🤣 , It's so long time kitne logo ka kat chuka but our bond is getting more stronger and stronger as time passes away! time ka pata hi ni chala itne sal kse khatam ho gye , bs jaldi se sb settle ho jye yhi chaiye is time bs🤗🤗🤗🤗. Happy birthday to you maau 🐱🐱🐱🐱",
+     wish:"💗💗Happiest Birthday to you my most caring and loving babu 😘😘😘😘😘😘 , You always motivate me to dream big and never allow me to feel low and depressed, vse to hmse kuch kaam na hota jabtk tmhri hadki na pde but aj bina khe itna kaam kia, and i really love this. you are not my love only your are my life! 🌎 , This year corona ne sara plan chaupat kr liya but sbse acchi bat ye hai ki in this corona crisis we and our families are safe. and as you know i don't know how to express my feelings bs itna khna hai ki i love you the most ❤️❤️❤️🧡🧡🧡 and always be with youin any situation will be and will make tasty recipes too as i always do for u , my cute maau rontru b bat bat me rone lgti 😂😂😂 , most angry b gussa ane per panje marne ka try krti fr khisiyani billi trh kch kr ni pati to muh bana k baith jati 🤣🤣🤣🤣🤣🤣 , It's so long time or pta b ni chla kse kb gujar gya but our bond is getting more stronger and stronger as time passes away! time ka pata hi ni chala itne sal kse khatam ho gye , bs jaldi se sb settle ho jye yhi chaiye is time bs🤗🤗🤗🤗. Happy birthday to you maau 🐱🐱🐱🐱"
     },
+
     {
      name:"😎 Dinesh 😎",
      avatar:2,
@@ -21,7 +22,7 @@ let wishes = [
      wish:"Your smile is so precious for me always be happy thanks baby to come in my life ...for all the stupid memories🤪... We will create more beautiful memories ... Hum do hmare ek ek mtlb hm char bhut masti krne wale h I m damn sure 💋💋💋💋💋 \n Enjoy your birthday n baby study hard ... We will meet after my result!😘😘😍😍"
     },
     {
-     name:"😙 Mansi 😙",
+     name:"😙 Mansi 🐼🐼",
      avatar:5,
      wish:"Birthdays come around every year, but friend like you only come once in a lifetime. I’m so glad you came into my life. Best wishes on your special day. Happy Birthday nia❤️❤️ love u so much "
     },
@@ -51,13 +52,21 @@ let wishes = [
      wish:"Let this day be full of joy and celebration🤩🥳. I wish you an outstanding and fabulous birthday🎂, my friend!🥰❤️"
     },
     {
-     name:"🧍‍♀️ Mansi 👨‍🦲",
+     name:"🤩😍 Mansi 👶👶",
      avatar:11,
+     wish:"May god shower all his blessings on you..😇 keep shining.. keep rocking❤️❤️  Wish you a very very happy birthday🥳🥳🥳🥳🥳🥳🥳🍫🎂🍫🎂🍫🎉🎉"
+    },
+    
+    {
+     name:"😯😯 ujjaval 👨 😎",
+     avatar:12,
      wish:"May god shower all his blessings on you..😇 keep shining.. keep rocking❤️❤️  Wish you a very very happy birthday🥳🥳🥳🥳🥳🥳🥳🍫🎂🍫🎂🍫🎉🎉"
     },
     
    
    ];
+   document.getElementById("music").play();
+
    const container = document.querySelector(".container");
    
    function addWishes(data) {
@@ -395,17 +404,13 @@ window.requestAnimFrame = function () {
   
     loop();
   
-    var w, h;
-    if (window.innerWidth >= 1000) {
-      w = 295;
-      h = 185;
-    } else
-    {
-      w = 255;
-      h = 155;
-    }
-  
+    
    
   }
   
+  // for image gallery....
+  function showWishesCards(){
+    window.location.href=window.location.href = "./image_gallary/image_gallary.html";
+  }
+
   

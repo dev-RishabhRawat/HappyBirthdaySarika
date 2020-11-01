@@ -4,20 +4,15 @@
     box-sizing: border-box;
 
 }
-body { padding-top: 70px; }
+
+/* body { padding-top: 70px; } */
 .jumbotron {
   color: #2C3E50 !important;
   background: #ecf0f1 !important;
 }
-.navbar-inverse {
-  background: #2c3e50 !important;
-  color: white !important;
-}
-.navbar-inverse .navbar-brand, .navbar-inverse a{
-  color:white !important;
-}
-.navbar-inverse .navbar-nav>li>a {
-  color: white !important;
+.container{
+    width: 100vw;
+    /* height: 88vh; */
 }
 .jumbotron{
 	color: white !important;
@@ -25,7 +20,7 @@ body { padding-top: 70px; }
 	background-size: center !important;
 	background-position: center !important;
 }
-// CSS for Modal and imgs
+/* // CSS for Modal and imgs */
 
 img {
     cursor: pointer;
@@ -33,7 +28,7 @@ img {
 }
 .myImg {
       max-height: 199px !important;
-    width: 100%; !important;
+      /* width: 100%; !important; */
 }
 img:hover {opacity: 0.7;}
 
@@ -114,4 +109,40 @@ img:hover {opacity: 0.7;}
     .modal-content {
         width: 100%;
     }
+}
+/* for navigation bar */
+.nav_container{
+    display: flex;
+    background-color: hsl(0, 5%, 90%);
+    width: 100vw;
+    /* height: 10vh; */
+    position: relative;
+    top: 0;
+}
+.nav {
+	display: flex;
+    width: 100%;
+    height: 100%;
+	height: auto;
+	align-items: center;
+	justify-content: space-between;
+	margin: auto;
+}
+.navlinks {
+    list-style: none;
+    height: 100px;
+}
+.navlinks li {
+	display: inline-block;
+}
+.navlinks li a {
+	display: inline-block;
+	text-decoration: none;
+	transition: 0.15s;
+	padding: 20px;
+	cursor: pointer;
+}
+.navlinks li a:hover {
+	background: rgb(27, 233, 240);
+	color: #fff;
 }

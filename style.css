@@ -674,9 +674,9 @@ background-color:rgb(222,93,131);
 }
 
 #showWish{
-  display: flex;
-  margin: auto;
-  cursor: pointer;
+  position: relative;
+  display: block;
+ margin: auto;
 }
 
 .teddy{
